@@ -1,0 +1,113 @@
+<!-- Student id:300976059
+Name:kranthi kumar G  janardhanaraj
+Date:17-FEB-2019  -->
+
+
+<% if (title == "Home") { %>
+<div>
+        <h1 class="display-4 text-center">Hello there !!!</h1>
+    <br>
+    <br>
+    <h3 class="text-center">I am Kranthi Kumar </h3>
+    <br>
+    <p class="text-center">This website will provide all the basic pages needed for website such as home,projects,about me ,contacts page.</p>
+    <br>
+</div>
+<% } %>
+
+
+<% if (title == "About") { %>
+<div class="row justify-content-center">
+    <img style="margin-bottom:10px" src="/Assets/Images/kranthi.png"/>
+    <h3 class="col-lg-12 text-center">Kranthi kumar Janardhanraj</h3>
+
+    <br>
+    <br>
+    <ul class="row col-lg-8">
+        <li>
+            A Software Developer with more than 3 years of experience in Software Development, Application Maintenance & Support and Project Execution.
+        </li>
+        <li>
+            Adept in analyzing information system needs, evaluating end-user requirements, custom
+designing solutions, troubleshooting for complex information systems management
+
+        </li>
+        <li>
+            Experienced in working with Clients, business managers and technical teams for executing concurrent projects.
+        </li>
+        <li>
+            In Accenture I worked on project which were using VB.net, Oracle PL/SQL,MS SQL technologies.
+        </li>
+        <li>
+            Worked on projects using emerging technologies in the market such as Angular, MongoDB.
+        </li>
+        <li>
+            Gained different programming language experience through advanced diploma education at Centennial college.
+        </li>
+    </ul>
+
+    <a class="col-lg-12 text-center" href="/Assets/Images/resume.pdf">My Resume</a>
+
+    </div>
+<% } %>
+
+
+<% if (title == "Products") { %>
+    <h1 class="">My Works</h1>
+    <hr>
+    <section id="projet1" class="">
+        <br>
+        <h3>ASP .NET Project</h3>
+        <img style="margin: 30px;" src="/Assets/Images/Picture1.png"/>
+        <br>
+        <img style="margin: 30px;" src="/Assets/Images/Picture2.png"/>
+    </section>
+    <hr>
+    <section id="project2">
+        <br>
+        <h3>API CLoud Computing Project</h3>
+        <img style="margin: 30px;" src="/Assets/Images/Picture3.png"/>
+        <img style="margin: 30px;" src="/Assets/Images/Picture4.png"/>
+    </section>
+    <hr>
+    <section id="project2">
+        <br>
+        <h3>Android Project</h3>
+        <img style="margin: 30px;" src="/Assets/Images/Picture5.png"/>
+    </section>
+    <hr>
+<% } %>
+
+
+<% if (title == "Services") { %>
+    <h1 class="">Services</h1>
+    <hr>
+<section class="row">
+    <div class="col-lg-4">
+        <img style="margin: 30px; width: 200px; height: 200px;" src="/Assets/Images/Service1.png"/>
+        <h3>Web Development</h3>
+    </div>
+    <div class="col-lg-4">
+        <img style="margin: 30px; width: 200px; height: 200px;" src="/Assets/Images/Service2.png"/>
+        <h3>.NET Development</h3>
+    </div>
+    <div class="col-lg-4">
+        <img style="margin: 30px; width: 200px; height: 200px;" src="/Assets/Images/Service3.png"/>
+        <h3>Angular Development</h3>
+    </div>
+</section>
+<% } %>
+
+
+<% if (title == "Contact") { %>
+<h3>COntact Form</h3>
+
+<form method="POST" class="row">
+    <input class="col-lg-12" style="margin:20px" type="text" name="firstname" placeholder="First Name"/>
+    <input class="col-lg-12"  style="margin:20px" type="text" name="lastname" placeholder="Last Name"/>
+    <input class="col-lg-12"  style="margin:20px" type="text" name="email" placeholder="Email"/>
+    <input class="col-lg-12" style="margin:20px" type="text" name="mobile" placeholder="Mobile"/>
+    <input class="col-lg-12"  style="margin:20px" type="text" name="message" placeholder="Message"/>
+    <a class="btn btn-primary" style="margin:20px" href="/">SUBMIT</a>
+</form>
+<% } %>
